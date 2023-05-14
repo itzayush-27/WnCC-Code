@@ -26,4 +26,4 @@ for sub in subs:
 
 df = pd.DataFrame(list(zip(tle , tme , sb)) , columns = ["Title" , "TimeStamp" , "Sub"])
 print(df)
-df.to_excel("data.xls" , index = False)
+df.to_excel("WnCCData.xls" , index = False)
